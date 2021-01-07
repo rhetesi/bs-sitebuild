@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+headers,
+menus {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+buttons {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+paragraphs,
+footer {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
