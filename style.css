@@ -26,7 +26,18 @@ menus {
 }
 
 .navbar-brand {
-    color: var(--project-yellow) !important;
+    /* color: var(--project-yellow) !important; */
+    color: var(--project-yellow);
+}
+
+.nav-link {
+    color: rgb(150, 150, 150);
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    /* color: rgb(255, 255, 255) !important; */
+    color: rgb(255, 255, 255);
 }
 
 paragraphs,
