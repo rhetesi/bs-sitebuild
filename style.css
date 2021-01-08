@@ -6,12 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 
 :root {
-    --gradient-from: #DA2431;
-    --gradient-to: #7A4397;
+    --gradient-from: rgba(218, 36, 49, .5);
+    --gradient-to: rgba(122, 67, 151, .5);
     --project-yellow: rgb(251, 204, 82);
     --project-yellow-op90: rgba(251, 204, 82, .9);
     --project-yellow-op100: rgba(251, 204, 82, 1);
     --heart: #DD4C39;
+    --project-grey: rgb(150, 150, 150);
 }
 
 headers,
@@ -23,6 +24,17 @@ menus {
 .navbar-brand,
 .nav-link {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.btn {
+    transition: color .3s;
+    border: solid 1px;
+    border-color: var(--project-grey);
+}
+
+.btn:hover {
+    background-color: var(--project-yellow);
+    border-color: var(--project-yellow);
 }
 
 .navbar-brand {
@@ -43,4 +55,23 @@ menus {
 paragraphs,
 footer {
     font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+.top-content {
+    background: linear-gradient(to right, var(--gradient-from), var(--gradient-to)), url("./img/bg-pattern.png");
+}
+
+.buzz,
+.friends {
+    background-color: var(--project-yellow);
+}
+
+.phone {
+    max-width: 30%;
+}
+
+
+
+.heart {
+    color: var(--heart);
 }
