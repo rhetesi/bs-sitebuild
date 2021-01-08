@@ -70,7 +70,19 @@ footer {
     max-width: 30%;
 }
 
+.building {
+    position: relative;
+}
 
+.building__bg--img {
+    width: 100%;
+}
+
+.text-for-building {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
 
 .heart {
     color: var(--heart);
