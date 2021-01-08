@@ -2,13 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
+/* - to see the difference, dev only */
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+:root {
+    --gradient-from: #DA2431;
+    --gradient-to: #7A4397;
+    --project-yellow: rgb(251, 204, 82);
+    --project-yellow-op90: rgba(251, 204, 82, .9);
+    --project-yellow-op100: rgba(251, 204, 82, 1);
+    --heart: #DD4C39;
+}
+
 headers,
 menus {
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
 }
 
-buttons {
+.btn,
+.navbar-brand,
+.nav-link {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+    color: var(--project-yellow) !important;
 }
 
 paragraphs,

@@ -7,12 +7,13 @@ Készítsd el a desktop.jpeg/mobile.jpeg képen látható responsive honlapot bo
 
 Összesen 2 nézetünk van. Medium breakpoint (992px) felett a desktop, alatta a mobil view érvényesüljön! A designhoz használt képeket megtalálod az img mappában. Használj egyéni betűtípusokat – Google fontsról le kell tölteni, és css-ben egyéni betűtípusokat kell létrehozni az alábbiak szerint:
 
-  A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif
-  Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
-  Bekezdések: Muli, Helvetica, Arial, sans-serif
-  A Footer egységesen: Muli, Helvetica, Arial, sans-serif
+  A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif - link from GFonts OK
+  Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif - link from GFonts OK
+  Bekezdések: Muli, Helvetica, Arial, sans-serif - link from GFonts OK
+  A Footer egységesen: Muli, Helvetica, Arial, sans-serif - link from GFonts OK
 
-A használni kívánt színeket mérd ki! Pontosan meg kell felelni a design színeinek! (color picker-t használd) A margin, padding értékeknek, betű méreteknek, sormagasságoknak stb. nem kell pixelpontosnak lennie de szemre lőjük be, ne térjen el nagyon a designon lévőtől! A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájában, de itt is olvashatod:
+OK- A használni kívánt színeket mérd ki! Pontosan meg kell felelni a design színeinek! (color picker-t használd)
+A margin, padding értékeknek, betű méreteknek, sormagasságoknak stb. nem kell pixelpontosnak lennie de szemre lőjük be, ne térjen el nagyon a designon lévőtől! A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájában, de itt is olvashatod:
 
 Start Bootstrap szöveg (a bal felső sarokban): - Ha fölé visszük a kurzort, fehér lesz a betűszín.
 
@@ -27,7 +28,7 @@ Felső navbar:
 
 Gombok:
   Lekerekítettek
-  Ha fölé visszük a kurzort sárga lesz a háttérszíne és a border színe is (#fdcc52) Ez 300ms alatt történjen meg, ne rögtön. (natív css-el old meg ha tudod)
+  Ha fölé visszük a kurzort sárga lesz a háttérszíne és a border színe is (#fdcc52) Ez 300ms alatt történjen meg, ne rögtön. (natív css-el old meg ha tudod) - color OK s. project-yellow
 
 Felső rózsaszn-lila rész:
   Ez egy linear gradient plusz egy kép repeatelve.
@@ -43,18 +44,18 @@ Unlimited Features Unlimited Fun rész
 
 Stop waiting Start Building rész:
   A háttéren egy áttetsző „szűrő" van.
-  Ha a gomb fölé visszük a kurzort sárga lesz a háttérszíne és a border színe is (#fdcc52)
+  Ha a gomb fölé visszük a kurzort sárga lesz a háttérszíne és a border színe is (#fdcc52) - color OK s. project-yellow
 
 We love new friends! rész
   A Social ikonoknál:
-    A háttérszín 90%-os opacityjű
-    Ha fölé viszem a kurzort akkor lesz 100%-os opacityjű
+    A háttérszín 90%-os opacityjű - Opacity OK s. project-yellow-op90
+    Ha fölé viszem a kurzort akkor lesz 100%-os opacityjű - Opacity OK s. project-yellow-op100
     Használj Fontawesome ikonokat
     Az ikonok linkek az adott social pagere
     Mindegyik ikonnak legyen tooltippje, tehát ha fölé viszem a kurzort megjelenik az adott social page neve. (facebook, twitter, google plus)
 
 Footer
-  Sima linkek. Ha fölé visszük a kurzort sárga lesz a betűk színe ezeknek a linkeknek. (#fdcc52)
+  Sima linkek. Ha fölé visszük a kurzort sárga lesz a betűk színe ezeknek a linkeknek. (#fdcc52) - color OK s. project-yellow
   Nem új oldalra vezetnek hanem mindegyik 1-1 külön modalt nyit.
   Tehát 3 modal lesz egy terms egy privacy és egy FAQ.
   Elég, ha ezeknek a modaloknak a title-je különbözik a body az lehet egy egyszerű lorem ipsum. A modal nyitását jqueryvel oldjuk meg.
