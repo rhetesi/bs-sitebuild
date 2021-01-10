@@ -30,29 +30,29 @@ Start Bootstrap szöveg (a bal felső sarokban): - Ha fölé visszük a kurzort,
   Lekerekítettek
   Ha fölé visszük a kurzort sárga lesz a háttérszíne és a border színe is (#fdcc52) Ez 300ms alatt történjen meg, ne rögtön. (natív css-el old meg ha tudod) - color OK s. project-yellow
 
-- [] Felső rózsaszn-lila rész:
-  Ez egy linear gradient plusz egy kép repeatelve.
-  A kép a bg-pattern.png
+- [X] Felső rózsaszn-lila rész:
+  - [x] Ez egy linear gradient plusz egy kép repeatelve.
+  - [x] A kép a bg-pattern.png
 
 -[] Discover what all the buzz is about! rész
   Két kép lesz linkként használva. (app-store-badge.svg, google-play-badge.svg)
   Ezek olyan kép linkek, amelyek az app store és a google play oldalakra vezetnek.
 
 - [] Unlimited Features Unlimited Fun rész
-  A jobb oldali 4-es csoportnál embed row-t használj!
-  Az ikonok sima utf-8 karakterek, nem kell ikonkészletet használni.
+  - [x] A jobb oldali 4-es csoportnál embed row-t használj!
+  - [x] Az ikonok sima utf-8 karakterek, nem kell ikonkészletet használni.
 
 - [] Stop waiting Start Building rész:
   A háttéren egy áttetsző „szűrő" van.
   Ha a gomb fölé visszük a kurzort sárga lesz a háttérszíne és a border színe is (#fdcc52) - color OK s. project-yellow
 
-- [] We love new friends! rész
+- [x] We love new friends! rész
   A Social ikonoknál:
-    A háttérszín 90%-os opacityjű - Opacity OK s. project-yellow-op90
+    - [x] A háttérszín 90%-os opacityjű - Opacity OK s. project-yellow-op90
     Ha fölé viszem a kurzort akkor lesz 100%-os opacityjű - Opacity OK s. project-yellow-op100
-    Használj Fontawesome ikonokat
-    Az ikonok linkek az adott social pagere
-    Mindegyik ikonnak legyen tooltippje, tehát ha fölé viszem a kurzort megjelenik az adott social page neve. (facebook, twitter, google plus)
+    - [x] Használj Fontawesome ikonokat
+    - [x] Az ikonok linkek az adott social pagere
+    - [x] Mindegyik ikonnak legyen tooltippje, tehát ha fölé viszem a kurzort megjelenik az adott social page neve. (facebook, twitter, google plus)
 
 - [] Footer
   Sima linkek. Ha fölé visszük a kurzort sárga lesz a betűk színe ezeknek a linkeknek. (#fdcc52) - color OK s. project-yellow
