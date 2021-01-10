@@ -25,6 +25,10 @@ menus {
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
 }
 
+h1 {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
 .btn,
 .navbar-brand,
 .nav-link {
